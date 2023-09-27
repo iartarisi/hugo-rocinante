@@ -4,7 +4,7 @@
 $fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 body {
-  font-family: $fonts;
+  font-family: "Lato", sans-serif;
   color: #333;
   font-size: 16px;
   line-height: 1.6;
@@ -23,6 +23,7 @@ strong, b {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Bree Serif", serif;
   font-weight: bold;
   margin: 1.5em 0 1em 0;
   line-height: 1em;
@@ -171,6 +172,7 @@ main {
 
 header h2 {
   margin: 1em;
+  font-family: "Lato", sans-serif;
   a {
     text-decoration: none;
     border: none;
@@ -204,6 +206,7 @@ header h2 {
 .title-group {
   .title h1 {
     margin-bottom: 0.5em;
+    font-weight: 300;
   }
   .date h5 {
     color: #888;
