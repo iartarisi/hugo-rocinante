@@ -4,7 +4,7 @@
 $fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $linkprimary: #EB7B59;
 $linkhover: #CF4647;
-
+$bottomcolour: #524656;
 
 body {
   font-family: "Lato", sans-serif;
@@ -221,7 +221,7 @@ header h2 {
 footer {
   margin-top: 3em;
   .content-container {
-    background: #eee;
+    background: $bottomcolour;
     padding: 2em 0;
     .content {
       max-width: 740px;
@@ -295,7 +295,7 @@ footer {
 }
 
 .current-page {
-  color: #aaa;
+  color: $bottomcolour;
 }
 
 .album {
